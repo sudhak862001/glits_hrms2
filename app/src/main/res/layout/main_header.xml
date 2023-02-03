@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#123B70">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:src="@drawable/tejayslogo"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FMS"
+        android:textSize="24sp"
+        android:fontFamily="@string/CenturyGothicRegular_font"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="apsfl@ap.gov.in"
+        android:textSize="14sp"
+        android:fontFamily="@string/CenturyGothicRegular_font"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CRMs_FMS/Tejays/MSR-master/app/src/main/res/layout/activity_image_picker.xml" value="0.25" />
+        <entry key="..\:/CRMs_FMS/Tejays/MSR-master/app/src/main/res/layout/activity_imagepicker.xml" value="0.25" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/drawable/btn_shape.xml" value="0.1635" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/drawable/button1_back.xml" value="0.1635" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/drawable/button2_back.xml" value="0.1635" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/drawable/button_background.xml" value="0.1635" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_emphome.xml" value="0.25" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_imagepicker.xml" value="0.264" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_inventory_list.xml" value="0.25" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_preview.xml" value="0.25" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_returnlist.xml" value="0.25" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_update_complaint.xml" value="0.25" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/adapter_inventory_list.xml" value="0.25" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/app_bar_main_dashboard.xml" value="0.25" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/custom_usedinventory1.xml" value="0.25" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/fragment_new_indents.xml" value="0.25" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/fragment_open.xml" value="0.25" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/fragment_resolved.xml" value="0.25" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/main_dashboard.xml" value="0.25" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/spinner_complaint.xml" value="0.25" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/spinner_edittext.xml" value="0.25" />
+        <entry key="..\:/GLITS_BACKUP/Tejays dhakshayanimam/tejays__recycleritems/MSR-master/app/src/main/res/layout/spinner_text.xml" value="0.25" />
+        <entry key="..\:/Users/digital/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_item.xml" value="0.20358974358974358" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/drawable/button1_back.xml" value="0.142" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/drawable/button2_back.xml" value="0.1375" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/drawable/rect_bg12.xml" value="0.1385" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/drawable/rect_bg3.xml" value="0.129" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/drawable/rect_et_bg.xml" value="0.1385" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_assigned_materials.xml" value="0.1578125" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_change_password.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_complaint_list_cat.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_complaints.xml" value="0.20358974358974358" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_completed_expenses.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_emphome.xml" value="0.20358974358974358" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_emplogin.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_expenses.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_image_picker2.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_imagepicker.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_indent_raising.xml" value="0.1578125" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_inventory.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_inventory_list.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_preview.xml" value="0.15260416666666668" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_reject.xml" value="0.1609375" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/activity_update_complaint.xml" value="0.18" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/adapter_complaint_list.xml" value="0.19114583333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/adapter_inventory_list.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/adapter_list_view1.xml" value="0.19114583333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/app_bar_main_dashboard.xml" value="0.20358974358974358" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/custom_usedinventory.xml" value="0.19114583333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/custom_usedinventory1.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/fragment_accepted.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/fragment_indentlist.xml" value="0.20358974358974358" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/fragment_new_indents.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/image_upload_dialog.xml" value="0.19270833333333334" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/main_dashboard.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/sign_out.xml" value="0.19114583333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/spinner_complaint.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/layout/spinner_text.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/menu/activity_main_drawer.xml" value="0.16979166666666667" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/menu/bottom_navigation_main.xml" value="0.19114583333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/menu/main.xml" value="0.19114583333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/menu/menu_navigation.xml" value="0.20677083333333332" />
+        <entry key="..\:/tejays__recycleritems/MSR-master/app/src/main/res/menu/search_view.xml" value="0.16979166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

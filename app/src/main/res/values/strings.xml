@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Tejays</string>
+    <string name="CenturyGothicRegular_font">CenturyGothicRegular</string>
+    <string name="CenturyGothicBold_font">CenturyGothicBold</string>
+    <string name="CenturyGothicRegular_font_family">ttf</string>
+    <string name="OPERATOR_CODE">http://msodata.digitalrupay.com/webservices/operator_info.php?op_code=</string>
+    <string name="search">Search</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAqP9lLMduVIOeAPxWCzx5BxM4FIOsuLRI</string>
+    <string name="login">Login</string>
+    <string name="Capture_Image1">Continue to login</string>
+    <string name="textline">
+
+Yes,the new panel will need to be in a slightly different location. Current code requires a 30 wide by 36" deep space in front of the panel. In theory it should forever be empty of everything (i.e., no storage). But the crucial part is that there should be no fixed items in that space, such as sinks, shelving, appliances, etc.
+
+Your current panel appears to be inset between two studs. Depending on a number of factors, it may be easier to surface mount the new panel next to it, rather than having to run all the cables inside the wall, but that may depend on access from the other side or other factors.
+
+Your panel looks to be a Stab Lok panel, which is considered by many to be a major fire hazard. Replacement with a modern panel is a good idea, even if you don't need the EV charging yet</string>
+    <string name="text">Take a Selfie and Upload</string>
+    <string name="update">Update</string>
+    <string name="Welcome_To">Welcome to</string>
+    <string name="complaints">Complaints</string>
+    <string name="inventory">Materials</string>
+    <string name="newinventory">New Material Raising</string>
+    <string name="newinventory1">Request Material</string>
+    <string name="inventorylist">Available Stock</string>
+    <string name="Change_OperatorCode">Change Operator code</string>
+    <string name="indent">New Indent</string>
+    <string name="indent2">Indent List</string>
+    <string name="indent1">Assigned Materials</string>
+    <string name="Expenses">Expenses</string>
+    <string name="Leave">Leave</string>
+    <string name="requiredinventory">Required Material</string>
+    <string name="requiredinventory1">Inventory Name</string>
+    <string name="requiredinventory2">Available Qty</string>
+    <string name="requiredinventory3">Return Qty</string>
+    <string name="title_activity_indent_raising">IndentRaisingActivity</string>
+    <string name="required_On">Required On :</string>
+    <string name="remarks">Remarks</string>
+    <string name="submit">SUBMIT</string>
+    <string name="complaints_Remarks">Remarks</string>
+    <string name="used_inventory">Is material Used ?</string>
+    <string name="Capture_Image">Capture Image</string>
+    <string name="redirect_to_dashboard">Redirect To Dashboard</string>
+    <string name="Edit_Indent_Details">Edit Indent Details</string>
+
+    <string-array name="PendingComplaintsList">
+        <item>Assigned</item>
+        <item>Accepted</item>
+        <item>InTransit</item>
+        <item>Onsite</item>
+        <item>Work In Progress</item>
+        <item>Pending For Spares</item>
+        <item>Pending For Customer Dependency</item>
+        <item>Pending For Others</item>
+        <item>Resolved</item>
+    </string-array>
+    <string name="select_from_date">Select From Date</string>
+    <string name="to_date">To Date</string>
+    <!--    <string name="select_from_date">Select From Date</string>-->
+    <!--    <string name="to_date">To Date</string>-->
+    <string name="subject">Subject</string>
+    <string name="select_from_time">Select From Time</string>-->
+    <string name="to_time">To Time</string>-->
+    <string-array name="transporttype">
+        <item>Select Transport Type</item>
+        <item>Auto</item>
+        <item>Bike</item>
+        <item>Bus</item>
+        <item>Car</item>
+        <item>Flight</item>
+        <item>Train</item>
+    </string-array>
+
+
+    <string-array name="traveltype">
+        <item>Select Type</item>
+        <item>Travel</item>
+        <item>Food</item>
+        <item>Accommodation</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="unknown_location">Unknown location</string>
+    <plurals name="num_locations_reported">
+        <item quantity="zero">No location reported</item>
+        <item quantity="one">One location reported</item>
+        <item quantity="other">%d locations reported</item>
+    </plurals>
+    <string-array name="complaints">
+        <item>New Customer Line</item>
+        <item>New Infra Line</item>
+        <item>Breakdown</item>
+        <item>Installation</item>
+        <item>Replacement</item>
+        <item>Complaint</item>
+    </string-array>
+    <string-array name="leave_status">
+        <item>Select Status</item>
+        <item>Approve</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="SelectStatusarray">
+        <item>Approved</item>
+        <item>Rejected</item>
+    </string-array>
+    <string-array name="Stockarray">
+        <item>Shipped</item>
+    </string-array>
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnRecordVideo">Record Video</string>
+    <string name="or">(or)</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+    <string name="default_notification_channel_id">ChannelId</string>
+    <string name="fcm_message">Fcm Message</string>
+    <string name="profile">Profile</string>
+    <string name="file_provider_authority" translatable="false">com.Tejaysdr.msrc.fileprovider</string>
+    <string name="home">Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

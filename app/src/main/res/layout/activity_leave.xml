@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.emp.LeaveActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_5dp"
+                android:gravity="center_vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cd_entreturns"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:background="#7ab4a5"
+                        android:id="@+id/ll_totleads"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:background="#106db2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:padding="@dimen/_15dp"
+                            android:src="@drawable/newleave"
+                            app:tint="@color/white" />
+                        <TextView
+                            android:id="@+id/tv_totalcomp"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/_15dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:textAllCaps="false"
+                            android:textColor="#f3ffff"
+                            android:text="New Leave"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_below="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_5dp"
+                android:gravity="center_vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cd_viewreturns"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:background="#7ab4a5"
+                        android:id="@+id/ll_atotleads"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:background="#106db2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:padding="@dimen/_15dp"
+                            android:src="@drawable/applyleave"
+                            app:tint="@color/white" />
+                        <TextView
+                            android:id="@+id/tv_atotalcomp"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/_15dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:textAllCaps="false"
+                            android:textColor="#f3ffff"
+                            android:text="Applied Leaves"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_below="@+id/ll2"
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cd_pending"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="0dp">
+
+                    <LinearLayout
+                        android:background="#7ab4a5"
+                        android:id="@+id/ll_vtotleads"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:background="#106db2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:padding="@dimen/_15dp"
+                            android:src="@drawable/pendingleave"
+                            app:tint="@color/white" />
+                        <TextView
+                            android:id="@+id/tv_vtotalcomp"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/_15dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:textAllCaps="false"
+                            android:textColor="#f3ffff"
+                            android:text="Pending Leaves"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

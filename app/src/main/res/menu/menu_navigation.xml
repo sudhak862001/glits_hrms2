@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_myAccount"
+            android:title="Home"
+            android:iconTint="@color/colorPrimaryDark"
+            android:icon="@drawable/nav_home"/>
+        <item
+            android:id="@+id/menu_complaint"
+            android:title="Profile"
+            android:iconTint="@color/colorPrimaryDark"
+            android:icon="@drawable/user"/>
+        <item
+            android:id="@+id/menu_payhistory"
+            android:title="Complaint"
+            android:iconTint="@color/colorPrimaryDark"
+            android:icon="@drawable/nav_complaints"/>
+        <item
+            android:id="@+id/menu_changepassword"
+            android:title="Change Password"
+            android:icon="@drawable/ic_user"
+            android:visible="false"/>
+        <item
+            android:id="@+id/menu_notification"
+            android:title="Notification"
+            android:iconTint="@color/colorPrimaryDark"
+            android:icon="@drawable/ic_user"
+            android:visible="false"/>
+        <item
+            android:id="@+id/menu_helpandsupport"
+            android:title="Materials"
+            android:icon="@drawable/network"/>
+        <item
+            android:id="@+id/menu_faqs"
+            android:title="Materials"
+            android:icon="@drawable/ic_user"
+            android:iconTint="@color/colorPrimaryDark"
+            android:visible="false"/>
+        <item
+            android:id="@+id/menu_aboutus"
+            android:title="Change Password"
+            android:icon="@drawable/nav_passwordchange"
+            android:iconTint="#123B6F"/>
+<!--        <item-->
+<!--            android:id="@+id/menu_speedtest"-->
+<!--            android:title="Internet Speed Test "-->
+<!--            android:icon="@drawable/nav_speedtest"-->
+<!--            android:iconTint="#123B6F"/>-->
+
+
+        <item
+            android:id="@+id/menu_logout"
+            android:title="@string/logout"
+            android:icon="@drawable/logout"/>
+        <item
+            android:id="@+id/tv_version"
+            android:title=" Version 1.8" />
+    </group>
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:layout_margin="@dimen/_15dp"
+    android:layout_marginTop="@dimen/_15dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/emp_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi,srikar "
+        android:textColor="@color/black"
+        android:layout_marginLeft="@dimen/_15dp"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Your Appointment Letter"
+        android:layout_marginLeft="@dimen/_15dp"
+        android:textSize="25dp"/>
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="400dp"/>
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appointment"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />-->
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rect_bg3">
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/montserrat" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resonlinear"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reason"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter some text here.."
+        android:inputType="text"
+        android:layout_marginTop="5dp"
+        android:id="@+id/reason"
+        android:background="@drawable/rect_bg12"/>
+</LinearLayout>
+    <Button
+        android:id="@+id/submitpreview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+    android:text="Submit"
+    android:backgroundTint="@color/colorPrimary"
+    android:textColor="@color/white"
+    />
+
+</LinearLayout>

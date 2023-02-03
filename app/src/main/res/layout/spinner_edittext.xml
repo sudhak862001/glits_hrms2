@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/_5dp"
+    android:fontFamily="@font/montserrat"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:imeOptions="actionNext"
+    android:hint="select"
+    android:textColor="@color/green"
+    android:inputType="number">
+
+
+</EditText>

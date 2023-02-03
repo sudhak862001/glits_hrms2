@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.Tejaysdr.msrc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:name=".MSRCApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/tejayslogo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activitys.emp.PreviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.RejectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImagepickerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.emp.ImagePicker"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.emp.InventoryForm"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.emp.Returnlist"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.emp.IndentlistActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name=".activitys.emp.IndentlistActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.emp.IndentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.emp.AssignedMaterialsActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name=".activitys.emp.AssignedMaterialsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.emp.ImagePickerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.emp.LeaveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.emp.ExpensesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.emp.PendingleaveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.emp.AppliedleaveActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name=".activitys.emp.AppliedleaveActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.emp.ApplyleaveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.emp.CompletedExpensesActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name=".activitys.emp.CompletedExpensesActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.emp.ExpenseslListActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name=".activitys.emp.ExpenseslListActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.emp.NewraiseExpensesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.PermissionActivity"
+            android:exported="false" />
+        <activity android:name=".DriverActivity" />
+        <activity
+            android:name=".activitys.emp.NotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activitys.emp.SpeedTestActivity" />
+        <activity
+            android:name=".activitys.emp.ChangePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.emp.SupportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.emp.ComplaintListCatActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name=".activitys.emp.ComplaintListCatActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.ProfileActivity"
+            android:parentActivityName=".activitys.emp.EMPHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.SearchOperatorCode"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activitys.EMPLoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.emp.EMPHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.emp.InventoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.emp.ComplaintsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.emp.InventoryListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.emp.IndentRaisingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.emp.UpdateComplaintActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.emp.IndentSuccessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.admin.AdminHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.admin.EditAdminInventoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.stockist.StockistHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.stockist.EditStockInventoryActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".backendServices.DataLoader" />
+        <service
+            android:name=".backendServices.SendGPSServicesLocation"
+            android:enabled="true"
+            android:exported="true" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <service android:name=".activitys.emp.GpsTracker" />
+        <service
+            android:name=".activitys.emp.LocationUpdatesIntentService"
+            android:exported="false" />
+
+        <receiver
+            android:name=".activitys.emp.LocationUpdatesBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.location.sample.locationupdatespendingintent.LocationUpdatesBroadcastReceiver.ACTION_PROCESS_UPDATES" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.Tejaysdr.msrc.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>

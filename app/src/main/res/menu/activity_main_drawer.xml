@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:visible="false"
+        android:id="@+id/rv_profile"
+        android:icon="@drawable/logo"
+        android:title="Profile" />
+    <item
+        android:id="@+id/rv_notification"
+        android:icon="@drawable/logo"
+        android:title="Notification" />
+    <item
+        android:id="@+id/complaint"
+        android:icon="@drawable/logo"
+        android:title="Complaints" />
+    <item
+        android:id="@+id/material"
+        android:icon="@drawable/logo"
+        android:title="Materials" />
+    <item
+        android:id="@+id/changepassword"
+        android:visible="true"
+        android:icon="@drawable/logo"
+        android:title="Change Password" />
+ <!--   <item
+        android:id="@+id/rv_buypack"
+        android:icon="@drawable/rupee_new"
+        android:title="Buy Channels" />
+    <item
+        android:id="@+id/rv_cart"
+        android:icon="@drawable/rupee_new"
+        android:title="Renew" />
+    <item
+        android:id="@+id/rv_change_pwd"
+        android:icon="@drawable/rupee_new"
+        android:title="Change Password" /-->>
+
+    <item
+        android:id="@+id/rv_Logout"
+     android:icon="@drawable/logo"
+        android:title="Logout" />
+    <item
+        android:title="Version 1.8"/>
+</menu>

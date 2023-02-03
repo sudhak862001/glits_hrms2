@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardElevation="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Name"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/montserrat"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:fontFamily="@font/montserrat"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.8"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:id="@+id/tv_mname1"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Item Number"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/montserrat"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    style="@style/CenturyGothic_regular_font"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.8"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:id="@+id/tv_mitennumber1"/>
+
+            </LinearLayout>
+
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:weightSum="3"-->
+            <!--                android:orientation="horizontal">-->
+            <!--                <TextView-->
+            <!--                    android:layout_width="0dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_weight="1"-->
+            <!--                    android:text="Used Quantity"-->
+            <!--                    android:layout_marginLeft="5dp"-->
+            <!--                    android:fontFamily="@font/montserrat"/>-->
+            <!--                <TextView-->
+            <!--                    android:layout_width="0dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_weight="0.2"-->
+            <!--                    android:text=":"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:gravity="center"-->
+            <!--                    style="@style/CenturyGothic_regular_font"/>-->
+            <!--                <TextView-->
+            <!--                    android:layout_width="0dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_weight="1.8"-->
+            <!--                    android:fontFamily="@font/montserrat_bold"-->
+            <!--                    android:id="@+id/tv_usedqty"/>-->
+
+            <!--            </LinearLayout>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Quantity"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/montserrat"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    style="@style/CenturyGothic_regular_font"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.8"
+                    android:id="@+id/tv_mdealerminquantity"
+                    android:fontFamily="@font/montserrat_bold"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Assigned Qty"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/montserrat"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.8"
+                    android:id="@+id/tv_assinedqty"
+                    android:fontFamily="@font/montserrat_bold"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:id="@+id/aasignedlinear"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Start Point"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/montserrat"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.8"
+                    android:id="@+id/tv_startpoint"
+                    android:fontFamily="@font/montserrat_bold"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:id="@+id/assignedlinear1"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="End Point"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/montserrat"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.8"
+                    android:id="@+id/tv_endpoint"
+                    android:fontFamily="@font/montserrat_bold"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Assigned On"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/montserrat"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.8"
+                    android:id="@+id/tv_assignedon"
+                    android:fontFamily="@font/montserrat_bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Remarks"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/montserrat"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text=":"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.8"
+                    android:id="@+id/tv_remarksi"
+                    android:fontFamily="@font/montserrat_bold"/>
+
+            </LinearLayout>
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:weightSum="3"-->
+<!--                android:orientation="horizontal">-->
+<!--                <TextView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:text="Approved Qty"-->
+<!--                    android:layout_marginLeft="5dp"-->
+<!--                    android:fontFamily="@font/montserrat"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="0.2"-->
+<!--                    android:text=":"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:gravity="center" />-->
+<!--                <TextView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1.8"-->
+<!--                    android:id="@+id/tv_approvedqty"-->
+<!--                    android:fontFamily="@font/montserrat_bold"/>-->
+
+<!--            </LinearLayout>-->
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!--  <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="80dp"
+          android:background="@drawable/shadowbox">
+
+      <com.digitalrupay.msrc.customviews.CustomTextView
+          style="@style/CenturyGothic_regular_font"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/inventory"
+          android:textSize="22dp"
+          android:layout_alignParentLeft="true"
+          android:layout_centerVertical="true"
+          android:id="@+id/empName"
+          android:layout_marginLeft="35dp"/>
+      <com.digitalrupay.msrc.customviews.CustomTextView
+          style="@style/CenturyGothic_regular_font"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="15"
+          android:textSize="22dp"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:id="@+id/tot_emp_inv"
+          android:layout_marginRight="35dp"/>
+      </RelativeLayout>-->
+</LinearLayout>

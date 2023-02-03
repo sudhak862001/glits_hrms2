@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_emphome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        app:titleTextColor="@color/white"
+        android:id="@+id/toolbar_complaintlist"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/titel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:padding="10dp">
+               <TextView
+                android:layout_width="0dp"
+                   android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="Open"
+                   android:textColor="@color/green"
+                   android:padding="8dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                   android:layout_marginLeft="2dp"
+                   android:layout_marginRight="2dp"
+                   android:background="@drawable/buttonbackgroud_complaint"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:text="In Progress"
+                android:textStyle="bold"
+                android:textColor="#2B1365"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/buttonbackgroud_complaint"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Resloved"
+                android:padding="8dp"
+
+                android:textColor="#FF9800"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/buttonbackgroud_complaint"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Completed"
+                android:textColor="#6E1010"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/buttonbackgroud_complaint"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/complaintlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/titel"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp" />
+    </RelativeLayout>
+    <!--<include layout="@layout/sign_out" />-->
+</LinearLayout>
